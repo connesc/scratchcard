@@ -1,0 +1,16 @@
+{
+  "name": "scratchcard",
+  "version": "0.1.0",
+  "description": "Mimic a scratchcard with HTML5",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "scratchcard",
+    "scratch",
+    "card"
+  ],
+  "author": "Cédric Connes",
+  "license": "MIT"
+}
