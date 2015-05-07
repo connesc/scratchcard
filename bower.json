@@ -1,0 +1,28 @@
+{
+  "name": "scratchcard",
+  "description": "Mimic a scratchcard with HTML5",
+  "main": "dist/scratchcard.js",
+  "moduleType": ["globals", "amd", "node"],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "Makefile",
+    "package.json",
+    "*.js",
+    "test.*"
+  ],
+  "keywords": [
+    "scratchcard",
+    "scratch",
+    "card"
+  ],
+  "authors": [
+    "Cédric Connes <cedric.connes@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "private": true
+}
