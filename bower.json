@@ -9,8 +9,11 @@
     "node_modules",
     "Makefile",
     "package.json",
-    "*.js",
-    "test.*"
+    "gulpfile.js",
+    "index.js",
+    "lib",
+    "server.js",
+    "example"
   ],
   "keywords": [
     "scratchcard",
@@ -22,6 +25,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "TODO"
+    "url": "https://github.com/connesc/scratchcard.git"
   }
 }

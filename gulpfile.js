@@ -12,20 +12,20 @@ var uglify = require('gulp-uglify');
 var del = require('del');
 
 gulp.task('build', function build() {
-	var regular = browserify({
-		entries: './index.js',
+	var raw = browserify({
+		entries: './lib/scratchcard.js',
 		standalone: 'Scratchcard',
 		debug: true
 	});
 
 	var standalone = browserify({
-		entries: './shim.js',
+		entries: './lib/standalone.js',
 		standalone: 'Scratchcard',
 		debug: true
 	});
 
 	var bundles = [
-		regular.bundle().pipe(source('scratchcard.js')),
+		raw.bundle().pipe(source('scratchcard.js')),
 		standalone.bundle().pipe(source('scratchcard-standalone.js'))
 	];
 
