@@ -20,9 +20,9 @@ require(['scratchcard', 'domReady!'], function init(Scratchcard) {
 
 		ctx.fillRect(0, 0, width, height);
 
-		ctx.font = '50px Courier';
+		ctx.font = '2rem Courier';
 		ctx.fillStyle = '#000000';
-		ctx.fillText('Hello World!', 100, 100);
+		ctx.fillText('Hello World!', 50, 100);
 	};
 
 	// Build the scratchcard
