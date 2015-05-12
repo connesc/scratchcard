@@ -19,7 +19,12 @@ Alternatively, the following bundles are available in the [`dist`](https://githu
 ### CommonJS (Browserify)
 ```javascript
 var Scratchcard = require('scratchcard');
-// Use Scratchcard here
+
+var scratchcard = new Scratchcard(document.getElementById('hidden-content'));
+
+scratchcard.on('progress', function onProgress(progress) {
+    console.log('Progress: ' + Math.floor(progress * 100) + '%');
+});
 ```
 
 ### AMD (RequireJS)
@@ -30,7 +35,11 @@ require.config({
     }
 });
 define(['scratchcard'], function (Scratchcard) {
-    // Use Scratchcard here
+    var scratchcard = new Scratchcard(document.getElementById('hidden-content'));
+
+    scratchcard.on('progress', function onProgress(progress) {
+        console.log('Progress: ' + Math.floor(progress * 100) + '%');
+    });
 });
 ```
 
@@ -38,7 +47,11 @@ define(['scratchcard'], function (Scratchcard) {
 ```html
 <script src="path/to/scratchcard.js"></script>
 <script>
-    // Use Scratchcard here
+    var scratchcard = new Scratchcard(document.getElementById('hidden-content'));
+
+    scratchcard.on('progress', function onProgress(progress) {
+        console.log('Progress: ' + Math.floor(progress * 100) + '%');
+    });
 </script>
 ```
 
@@ -124,6 +137,11 @@ Scratchcard.js depends on [`lodash.defaults`](https://lodash.com/docs#defaults).
 
 The [`animation-frame`](https://github.com/kof/animation-frame) dependency is only used for the `scratchcard-standalone` bundle.
 
-# License
+## Contributors
+
+ - [Cédric Connes](https://github.com/connesc): original author
+ - [Unitag](https://github.com/unitag): various contributions, especially tests
+
+## License
 
 [MIT](https://github.com/connesc/scratchcard/blob/master/LICENSE)

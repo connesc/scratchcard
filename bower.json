@@ -21,7 +21,8 @@
     "card"
   ],
   "authors": [
-    "Cédric Connes <cedric.connes@gmail.com>"
+    "Cédric Connes <cedric.connes@gmail.com>",
+    "Unitag (http://www.unitag.io)"
   ],
   "repository": {
     "type": "git",

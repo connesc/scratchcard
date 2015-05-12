@@ -9,6 +9,9 @@
   ],
   "license": "MIT",
   "author": "Cédric Connes <cedric.connes@gmail.com>",
+  "contributors": [
+    "Unitag (http://www.unitag.io)"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
