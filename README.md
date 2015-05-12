@@ -8,6 +8,7 @@ Mimic a [scratchcard](http://en.wikipedia.org/wiki/Scratchcard) with HTML5.
 [![Dev dependencies status](https://img.shields.io/david/dev/connesc/scratchcard.svg)](https://david-dm.org/connesc/scratchcard#info=devDependencies)
 
 ## Installation
+
 The `scratchcard` package can be installed through Bower or [npm](https://www.npmjs.com/package/scratchcard).
 
 Alternatively, the following bundles are available in the [`dist`](https://github.com/connesc/scratchcard/tree/master/dist) directory:
@@ -17,6 +18,7 @@ Alternatively, the following bundles are available in the [`dist`](https://githu
 ## Get started
 
 ### CommonJS (Browserify)
+
 ```javascript
 var Scratchcard = require('scratchcard');
 
@@ -28,12 +30,14 @@ scratchcard.on('progress', function onProgress(progress) {
 ```
 
 ### AMD (RequireJS)
+
 ```javascript
 require.config({
     paths: {
         scratchcard: 'path/to/scratchcard',
     }
 });
+
 define(['scratchcard'], function (Scratchcard) {
     var scratchcard = new Scratchcard(document.getElementById('hidden-content'));
 
@@ -44,6 +48,7 @@ define(['scratchcard'], function (Scratchcard) {
 ```
 
 ### Browser
+
 ```html
 <script src="path/to/scratchcard.js"></script>
 <script>
@@ -56,9 +61,11 @@ define(['scratchcard'], function (Scratchcard) {
 ```
 
 ## API
+
 TL;DR: for a working example, see the [`example`](https://github.com/connesc/scratchcard/tree/master/example) directory ([live demo](http://connesc.github.io/scratchcard/example/)).
 
 ### Scratchcard class
+
 The `scratchcard` module exposes the `Scratchcard` class as its single entry point:
 ```javascript
 var scratchcard = new Scratchcard(element, options);
