@@ -1,4 +1,4 @@
-#test {
-	/*width: 100%;*/
+.scratch-img {
+	max-width: 100%;
 	visibility: hidden;
 }
