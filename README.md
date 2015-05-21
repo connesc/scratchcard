@@ -89,7 +89,7 @@ The `options` parameter is optional. It can be either a raw object (see [below](
 | Signature | Description |
 | --------- | ----------- |
 | `getElement` | Retrieve the attached DOM element. |
-| `setElement(element)` | Attach this scratchcard to another DOM element. |
+| `setElement(element)` | Attach this scratchcard to another DOM element. Pass `null` to detach this scratchcard from the DOM. |
 | `getPainter` | Retrieve the current painter. |
 | `setPainter(painter|options)` | Replace the current painter by the given one. If the given parameter is not a `Painter` instance, it is passed as options to the default `Painter` constructor. |
 | `getWrapper` | Retrieve the wrapper element. |
