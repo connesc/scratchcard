@@ -3,7 +3,10 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
+
+## [0.4.2] - 2015-08-04
 - Add the CHANGELOG
+- Update dependencies
 
 ## [0.4.1] - 2015-05-21
 - Fix repeated `setElement(null)`
@@ -27,7 +30,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## 0.1.0 - 2015-05-09
 - Initial release
 
-[unreleased]: https://github.com/connesc/scratchcard/compare/v0.4.1...HEAD
+[unreleased]: https://github.com/connesc/scratchcard/compare/v0.4.2...HEAD
+[0.4.2]: https://github.com/connesc/scratchcard/compare/v0.4.1...v0.4.2
 [0.4.1]: https://github.com/connesc/scratchcard/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/connesc/scratchcard/compare/v0.3.2...v0.4.0
 [0.3.2]: https://github.com/connesc/scratchcard/compare/v0.3.1...v0.3.2
