@@ -81,6 +81,7 @@ The `options` parameter is optional. It can be either a raw object (see [below](
 | ---- | ---- | ----------- | ------- |
 | `threshold` | Integer between 0 and 255 | The minimal alpha value for considering a pixel as _revealed_. | `255` (only fully transparent pixels are considrered as _revealed_) |
 | `realtime` | Boolean | Whether to report the `progress` events during the user interaction (dynamically), or only when when the user releases the scratchcard. Enabling this option may affect performances on some devices. | `false` (fastest interaction) |
+| `layers` | Positive integer | The number of layers to be inserted below the scratchcard. | `0` |
 | `painter` | A `Painter` instance or a raw object | The painter to be used, or a set of options to be passed to the default `Painter` constructor. | `{}` (default painter) |
 | `animationFrame` | An object defining a `request` method | An alternative implementation for the native `requestAnimationFrame` API. An instance of the [`animation-frame`](https://github.com/kof/animation-frame) module fits perfectly here, but feel free to provide the implementation of your choice. | `null` (native implementation) |
 
@@ -125,6 +126,7 @@ You can either:
 | `drawPoint(ctx, point)` | Draw the initial point of a scratching path. |
 | `drawLine(ctx, start, end)` | Draw a segment between two points of a scratching path. |
 | `complete(ctx, width, height)` | Force the scrathcard to its final state. |
+| `drawLayer(ctx, width, height, index)` | Draw the given layer. |
 
 ## Compatibility
 
