@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
+- Allow pointer events to pass through a completed scratchcard
 
 ## [0.4.3] - 2015-08-17
 - Allow zero-sized scratchcards
