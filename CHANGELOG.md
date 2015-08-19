@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
+
+## [0.5.0] - 2015-08-19
 - Allow pointer events to pass through a completed scratchcard
 - Minimize realtime progress checks (skipped when idle)
 - Add support for optional layers
@@ -37,7 +39,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## 0.1.0 - 2015-05-09
 - Initial release
 
-[unreleased]: https://github.com/connesc/scratchcard/compare/v0.4.3...HEAD
+[unreleased]: https://github.com/connesc/scratchcard/compare/v0.5.0...HEAD
+[0.4.2]: https://github.com/connesc/scratchcard/compare/v0.4.3...v0.5.0
 [0.4.2]: https://github.com/connesc/scratchcard/compare/v0.4.2...v0.4.3
 [0.4.2]: https://github.com/connesc/scratchcard/compare/v0.4.1...v0.4.2
 [0.4.1]: https://github.com/connesc/scratchcard/compare/v0.4.0...v0.4.1
