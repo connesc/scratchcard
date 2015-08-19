@@ -26,8 +26,9 @@ require(['scratchcard', 'domReady!'], function init(Scratchcard) {
 	};
 
 	// Build the scratchcard
+	var scratchcard;
 	try {
-		var scratchcard = new Scratchcard(element, {
+		scratchcard = new Scratchcard(element, {
 			realtime: false,
 			painter: painter
 		});
