@@ -4,6 +4,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 - A zero-sized scratchcard is not considered as completed anymore
+- Allow the hidden element to be removed from the DOM
 
 ## [0.5.0] - 2015-08-19
 - Allow pointer events to pass through a completed scratchcard
