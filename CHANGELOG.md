@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
+- Improve sizing and positioning, especially for inline elements
 
 ## [0.5.1] - 2015-08-20
 - A zero-sized scratchcard is not considered as completed anymore
