@@ -4,6 +4,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
 
+## [0.5.5] - 2016-02-15
+- Update dependencies
+
 ## [0.5.4] - 2015-08-28
 - Allow the scratchcard to be initially detached from the DOM
 
@@ -52,7 +55,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## 0.1.0 - 2015-05-09
 - Initial release
 
-[unreleased]: https://github.com/connesc/scratchcard/compare/v0.5.4...HEAD
+[unreleased]: https://github.com/connesc/scratchcard/compare/v0.5.5...HEAD
+[0.5.5]: https://github.com/connesc/scratchcard/compare/v0.5.4...v0.5.5
 [0.5.4]: https://github.com/connesc/scratchcard/compare/v0.5.3...v0.5.4
 [0.5.3]: https://github.com/connesc/scratchcard/compare/v0.5.2...v0.5.3
 [0.5.2]: https://github.com/connesc/scratchcard/compare/v0.5.1...v0.5.2
