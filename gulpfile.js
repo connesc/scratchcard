@@ -39,8 +39,8 @@ gulp.task('build', function build() {
 		.pipe(gulp.dest('dist'));
 });
 
-gulp.task('clean', function clean(callback) {
-	return del(['dist'], callback);
+gulp.task('clean', function clean() {
+	return del('dist');
 });
 
 gulp.task('default', ['build']);
