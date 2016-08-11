@@ -3,6 +3,8 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][unreleased]
+
+## [0.5.6] - 2016-08-11
 - Update dependencies
 
 ## [0.5.5] - 2016-02-15
@@ -56,7 +58,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## 0.1.0 - 2015-05-09
 - Initial release
 
-[unreleased]: https://github.com/connesc/scratchcard/compare/v0.5.5...HEAD
+[unreleased]: https://github.com/connesc/scratchcard/compare/v0.5.6...HEAD
+[0.5.6]: https://github.com/connesc/scratchcard/compare/v0.5.5...v0.5.6
 [0.5.5]: https://github.com/connesc/scratchcard/compare/v0.5.4...v0.5.5
 [0.5.4]: https://github.com/connesc/scratchcard/compare/v0.5.3...v0.5.4
 [0.5.3]: https://github.com/connesc/scratchcard/compare/v0.5.2...v0.5.3
