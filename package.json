@@ -22,17 +22,17 @@
     "clean": "node_modules/.bin/gulp clean"
   },
   "dependencies": {
-    "animation-frame": "^0.2.5",
-    "lodash.defaults": "^4.0.1"
+    "animation-frame": "^0.3.0",
+    "lodash.defaults": "^4.1.0"
   },
   "devDependencies": {
-    "browserify": "^13.0.0",
-    "del": "^2.2.0",
-    "express": "^4.13.4",
+    "browserify": "^13.1.0",
+    "del": "^2.2.1",
+    "express": "^4.14.0",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.2",
+    "gulp-uglify": "^2.0.0",
     "merge-stream": "^1.0.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
